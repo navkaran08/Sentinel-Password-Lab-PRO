@@ -1,0 +1,48 @@
+# Sentinel Password Lab — Pro Usage Guide
+
+## Overview
+Sentinel Password Lab — Pro is a client-side password analysis tool that helps you evaluate password strength, check for breaches, and generate secure passwords and passphrases. All operations are performed locally in your browser to ensure your privacy.
+
+## How to Use
+
+### Analyzing a Password
+1. Enter your password into the input field labeled "Password to analyze".
+2. Click the "Analyze" button.
+3. Review the results:
+   - **Score:** A numerical estimate (0-100) of password strength.
+   - **Strength:** Qualitative rating (e.g., Very weak, Strong).
+   - **Risk Badge:** Indicates risk level (High, Moderate, Lower, Strong).
+   - **Character Profile:** Breakdown of character types used.
+   - **Weaknesses:** Detected vulnerabilities.
+   - **Breach Exposure:** Check whether the password has been exposed in breaches (click "Check after analysis").
+
+### Breach Check
+- After analyzing, click "Check after analysis" to perform a breach exposure lookup.
+- The check uses only a partial hash (k-anonymous method) to query the Pwned Passwords database.
+- Results will show if the password has been found in known breaches.
+
+### Generating Passwords
+- Use the "Secure generator" section to create strong passwords:
+  - Click "Click generate" to produce a password.
+  - Choose the length:
+    - 20 characters
+    - 32 characters
+    - 4-word passphrase
+  - Copy generated passwords with the "Copy generated password" button.
+
+### Additional Features
+- Toggle password visibility with the show/hide button.
+- Clear the input field with the "Clear" button.
+- Generate a password or passphrase via dedicated buttons.
+- Copy passwords to clipboard for safe use.
+
+## Privacy & Security
+- All analysis and generation are performed locally.
+- Passwords are not stored or transmitted.
+- Breach checks only send a partial hash for privacy.
+
+## Tips
+- Use long, unique passwords or passphrases.
+- Regularly verify passwords against breach databases.
+- Use password managers for secure storage.
+- Enable multi-factor authentication (MFA).
