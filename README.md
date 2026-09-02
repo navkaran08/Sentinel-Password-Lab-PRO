@@ -55,17 +55,16 @@ cd Password-Strength-Analyzer-Pro-2026
 Then open:
 
 ```text
-Sentinel-Password-Lab-Pro(1).html
+Sentinel-Password-Lab-Pro.html
 ```
 
-> If you rename the file to `Sentinel-Password-Lab-Pro.html`, use that filename in the commands below.
 
 ## 🪟 Windows CMD
 
 ### Clone + Open
 
 ```cmd
-git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git && cd Password-Strength-Analyzer-Pro-2026 && start Sentinel-Password-Lab-Pro(1).html
+git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git && cd Password-Strength-Analyzer-Pro-2026 && start Sentinel-Password-Lab-Pro.html
 ```
 
 ### Run with Python HTTP Server
@@ -78,7 +77,7 @@ python -m http.server 8000
 Open:
 
 ```text
-http://localhost:8000/Sentinel-Password-Lab-Pro(1).html
+http://localhost:8000/Sentinel-Password-Lab-Pro.html
 ```
 
 ## ⚡ Windows PowerShell
@@ -86,7 +85,7 @@ http://localhost:8000/Sentinel-Password-Lab-Pro(1).html
 ### Clone + Open
 
 ```powershell
-git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git; cd Password-Strength-Analyzer-Pro-2026; Start-Process '.\Sentinel-Password-Lab-Pro(1).html'
+git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git; cd Password-Strength-Analyzer-Pro-2026; Start-Process '.\Sentinel-Password-Lab-Pro.html'
 ```
 
 ### Run Local Server
@@ -99,7 +98,7 @@ python -m http.server 8000
 Open:
 
 ```text
-http://localhost:8000/Sentinel-Password-Lab-Pro(1).html
+http://localhost:8000/Sentinel-Password-Lab-Pro.html
 ```
 
 ## 🐧 Linux
@@ -107,7 +106,7 @@ http://localhost:8000/Sentinel-Password-Lab-Pro(1).html
 ### Clone + Open
 
 ```bash
-git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git && cd Password-Strength-Analyzer-Pro-2026 && xdg-open 'Sentinel-Password-Lab-Pro(1).html'
+git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git && cd Password-Strength-Analyzer-Pro-2026 && xdg-open 'Sentinel-Password-Lab-Pro.html'
 ```
 
 ### Run Local Server
@@ -120,7 +119,7 @@ python3 -m http.server 8000
 Open:
 
 ```text
-http://localhost:8000/Sentinel-Password-Lab-Pro(1).html
+http://localhost:8000/Sentinel-Password-Lab-Pro.html
 ```
 
 ## 🍎 macOS
@@ -128,7 +127,7 @@ http://localhost:8000/Sentinel-Password-Lab-Pro(1).html
 ### Clone + Open
 
 ```bash
-git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git && cd Password-Strength-Analyzer-Pro-2026 && open 'Sentinel-Password-Lab-Pro(1).html'
+git clone https://github.com/navkaran08/Password-Strength-Analyzer-Pro-2026.git && cd Password-Strength-Analyzer-Pro-2026 && open 'Sentinel-Password-Lab-Pro.html'
 ```
 
 ### Run Local Server
@@ -141,7 +140,7 @@ python3 -m http.server 8000
 Open:
 
 ```text
-http://localhost:8000/Sentinel-Password-Lab-Pro(1).html
+http://localhost:8000/Sentinel-Password-Lab-Pro.html
 ```
 
 ## 📂 Manual Run
@@ -151,7 +150,7 @@ Already downloaded the project?
 Simply open:
 
 ```text
-Sentinel-Password-Lab-Pro(1).html
+Sentinel-Password-Lab-Pro.html
 ```
 
 with a modern web browser.
@@ -431,15 +430,3 @@ CTRL + C
 ## 📄 License
 
 This project is licensed under the **MIT License**.
-
-See [`LICENSE`](LICENSE) for details.
-
----
-
-<div align="center">
-
-🔐 **Sentinel Password Lab PRO**
-
-**Analyze Smarter. Build Stronger. Protect Better.**
-
-</div>
